@@ -1,36 +1,59 @@
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    background: #f4f4f4;
-    color: #333;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: auto;
+  padding: 20px;
 }
 header {
-    background: #0077cc;
-    color: white;
-    padding: 40px 20px;
-    text-align: center;
+  background: #1e88e5;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
 }
-header .botao {
-    display: inline-block;
-    margin-top: 15px;
-    background: white;
-    color: #0077cc;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
+.botao {
+  background: white;
+  color: #1e88e5;
+  padding: 12px 24px;
+  border-radius: 30px;
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: bold;
+  text-decoration: none;
 }
 section {
-    padding: 20px;
-    background: white;
-    margin: 20px;
-    border-radius: 8px;
+  background: white;
+  margin: 20px 0;
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+th, td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: left;
 }
 footer {
-    text-align: center;
-    padding: 10px;
-    background: #222;
-    color: white;
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
